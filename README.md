@@ -16,6 +16,10 @@ Solving for the point where **Pa = Pb** gives the following two equations in two
 
 Solving gives the following expressions for ua and ub
 
+![image](images/lineintersec2.gif)
+
+Substituting either of these into the corresponding equation for the line gives the intersection point. For example the intersection point (x,y) is
+
 **x = x1 + ua (x2 - x1)**
 
 **y = y1 + ua (y2 - y1)**
