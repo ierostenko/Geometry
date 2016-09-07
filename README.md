@@ -4,21 +4,28 @@
 
 The equations of the lines are
 
-**Pa = P1 + ua ( P2 - P1 )
-Pb = P3 + ub ( P4 - P3 ) **
+**Pa = P1 + ua ( P2 - P1 )**
 
-Solving for the point where **Pa = Pb** gives the following two equations in two unknowns (ua and ub) 
-**x1 + ua (x2 - x1) = x3 + ub (x4 - x3) 
-y1 + ua (y2 - y1) = y3 + ub (y4 - y3) **
+**Pb = P3 + ub ( P4 - P3 )**
+
+Solving for the point where **Pa = Pb** gives the following two equations in two unknowns (ua and ub)
+
+**x1 + ua (x2 - x1) = x3 + ub (x4 - x3)**
+
+**y1 + ua (y2 - y1) = y3 + ub (y4 - y3)**
 
 Solving gives the following expressions for ua and ub
-**
-x = x1 + ua (x2 - x1)
 
-y = y1 + ua (y2 - y1) **
+![image](images/lineintersec2.gif)
+
+Substituting either of these into the corresponding equation for the line gives the intersection point. For example the intersection point (x,y) is
+
+**x = x1 + ua (x2 - x1)**
+
+**y = y1 + ua (y2 - y1)**
 
 
-Notes:
+**Notes:**
 
 - The denominators for the equations for ua and ub are the same.
 
